@@ -1,0 +1,14 @@
+name: Click to say hello 🌏
+
+on:
+  - workflow_dispatch
+
+jobs:
+  hello_world_job:
+    name: Hello world 🌱
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message to terminal
+        run: echo "Hello 🌏!"
